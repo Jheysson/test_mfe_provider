@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "declaration": true,
+    "declarationDir": "./dist",
+    "outDir": "./dist",
+    "strict": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
