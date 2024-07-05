@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import { ThemeProvider as MuiThemeProvider, Theme, createTheme } from '@mui/material/styles';
-import theme from './theme';
+import { lightTheme } from './theme';
 
 interface ThemeProviderProps {
   children: ReactNode;
@@ -8,9 +8,8 @@ interface ThemeProviderProps {
 }
 
 const ThemeProvider: React.FC<ThemeProviderProps> = ({ children, themeOverrides = {} }) => {
-  const customTheme = createTheme(theme, themeOverrides)
   return (
-    <MuiThemeProvider theme={customTheme}>
+    <MuiThemeProvider theme={lightTheme}>
       {children}
     </MuiThemeProvider>
   );

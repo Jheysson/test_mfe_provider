@@ -5,7 +5,8 @@ export const LightPalette = () => {
   return createTheme({
     palette: {
       border: {
-        //TODO: Not sure what is this.
+        '100': '#EEEEEE',
+        '200': '#E2E5ED',
       },
       common: {
         black: '#29333B', //BLAZE/BLAZE Black
@@ -14,6 +15,7 @@ export const LightPalette = () => {
       primary: {
         light: '#1CC4E8', // BLAZE/Retail
         main: '#2CB2DC', // BLAZE/Retail Alt
+        contrastText: '#ffffff',
       },
       info: {
         light: '#1CC4E8', // BLAZE/Retail
@@ -51,7 +53,7 @@ export const LightPalette = () => {
         800: '#333333', // mono.33
         900: '#202020', // mono.20
       },
-      //The text color are different from retail page for now, we are getting these colors from the MFE Payments page.
+      //The text colors are different from retail page for now, we are getting these colors from the MFE Payments page.
       text: {
         primary: '#3E3F42',
         secondary: '#9EA0A5',

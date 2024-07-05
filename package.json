@@ -19,16 +19,22 @@
   },
   "homepage": "https://github.com/Jheysson/test_mfe_provider#readme",
   "dependencies": {
+    
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tss-react": "^4.8.8",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.13.0"
   },
-  "peerDependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
-  },
   "devDependencies": {
     "@types/node": "^20.14.9",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.3",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.13.0",
+    "tss-react": "^4.8.8"
   }
 }
